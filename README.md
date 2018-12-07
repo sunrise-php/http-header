@@ -15,33 +15,7 @@ composer require sunrise/http-header
 
 ## How to use?
 
-```php
-use Psr\Http\Message\MessageInterface;
-use Sunrise\Http\Header\HeaderInterface;
-
-class AccessControlAllowCredentials implements HeaderInterface
-{
-	public function getFieldName() : string
-	{
-		return 'Access-Control-Allow-Credentials';
-	}
-
-	public function getFieldValue() : string
-	{
-		return 'true';
-	}
-
-	public function setToMessage(MessageInterface $message) : MessageInterface
-	{
-		return $message->withHeader($this->getFieldName(), $this->getFieldValue());
-	}
-
-	public function addToMessage(MessageInterface $message) : MessageInterface
-	{
-		return $message->withAddedHeader($this->getFieldName(), $this->getFieldValue());
-	}
-}
-```
+https://github.com/sunrise-php/http-header-kit
 
 ## Test run
 
