@@ -78,4 +78,13 @@ interface HeaderInterface
 	 * @link https://www.php-fig.org/psr/psr-7/
 	 */
 	public function addToMessage(MessageInterface $message) : MessageInterface;
+
+	/**
+	 * Converts the header to string
+	 *
+	 * @return string
+	 *
+	 * http://php.net/manual/en/language.oop5.magic.php#object.tostring
+	 */
+	public function __toString();
 }
