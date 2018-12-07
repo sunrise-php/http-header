@@ -84,7 +84,7 @@ interface HeaderInterface
 	 *
 	 * @return string
 	 *
-	 * http://php.net/manual/en/language.oop5.magic.php#object.tostring
+	 * @link http://php.net/manual/en/language.oop5.magic.php#object.tostring
 	 */
 	public function __toString();
 }
