@@ -1,5 +1,6 @@
 ## HTTP Header interface for PHP 7.2+ based on PSR-7
 
+[![Gitter](https://badges.gitter.im/sunrise-php/support.png)](https://gitter.im/sunrise-php/support)
 [![Build Status](https://api.travis-ci.com/sunrise-php/http-header.svg?branch=master)](https://travis-ci.com/sunrise-php/http-header)
 [![CodeFactor](https://www.codefactor.io/repository/github/sunrise-php/http-header/badge)](https://www.codefactor.io/repository/github/sunrise-php/http-header)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/sunrise-php/http-header/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
