@@ -1,6 +1,6 @@
 {
     "name": "sunrise/http-header",
-    "description": "Sunrise HTTP Header",
+    "description": "Sunrise HTTP Header interface for PHP 7.1+ based on PSR-7",
     "keywords": ["fenric", "sunrise", "http-header", "psr-7"],
     "homepage": "https://github.com/sunrise-php/http-header",
     "license": "MIT",
