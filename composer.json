@@ -1,9 +1,15 @@
 {
     "name": "sunrise/http-header",
-    "description": "Sunrise HTTP Header interface for PHP 7.1+ based on PSR-7",
-    "keywords": ["fenric", "sunrise", "http-header", "psr-7"],
     "homepage": "https://github.com/sunrise-php/http-header",
+    "description": "Sunrise HTTP header interface for PHP 7.1+ based on PSR-7",
     "license": "MIT",
+    "keywords": [
+        "fenric",
+        "sunrise",
+        "http",
+        "http-header",
+        "psr-7"
+    ],
     "authors": [
         {
             "name": "Anatoly Fenric",
@@ -12,11 +18,12 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1|^8.0",
         "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "7.5.6"
+        "phpunit/phpunit": "7.5.20|9.5.0",
+        "sunrise/coding-standard": "1.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,7 +32,8 @@
     },
     "scripts": {
         "test": [
-            "phpunit --colors=always --coverage-text"
+            "phpunit --colors=always --coverage-text",
+            "phpcs"
         ]
     }
 }
