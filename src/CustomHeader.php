@@ -19,13 +19,15 @@ use InvalidArgumentException;
 /**
  * CustomHeader
  */
-final class CustomHeader extends BaseHeader
+class CustomHeader extends BaseHeader
 {
 
     /**
      * The header field-name
      *
      * @var string
+     *
+     * @readonly
      */
     private $fieldName;
 
@@ -33,6 +35,8 @@ final class CustomHeader extends BaseHeader
      * The header field-value
      *
      * @var string
+     *
+     * @readonly
      */
     private $fieldValue;
 
