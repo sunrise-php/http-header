@@ -28,11 +28,6 @@
             "Sunrise\\Http\\Header\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Sunrise\\Http\\Header\\Tests\\": "tests/"
-        }
-    },
     "scripts": {
         "test": [
             "phpcs",
