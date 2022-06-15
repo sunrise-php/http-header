@@ -9,7 +9,7 @@
 ## Installation
 
 ```bash
-composer require 'sunrise/http-header:^2.0'
+composer require 'sunrise/http-header:^2.1'
 ```
 
 ## More details at
