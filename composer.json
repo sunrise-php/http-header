@@ -7,6 +7,7 @@
         "fenric",
         "sunrise",
         "http",
+        "message",
         "header"
     ],
     "authors": [
@@ -17,7 +18,7 @@
         }
     ],
     "require": {
-        "php": "^7.1|^8.0"
+        "php": "^>=7.4"
     },
     "require-dev": {
         "sunrise/coding-standard": "1.0.0"
