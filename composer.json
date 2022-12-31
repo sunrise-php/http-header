@@ -33,5 +33,6 @@
             "phpcs",
             "psalm"
         ]
-    }
+    },
+    "abandoned": "sunrise/http-message"
 }
